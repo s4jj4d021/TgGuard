@@ -3544,12 +3544,12 @@ end
 			return get_rules(msg, data)
 		end
 
-		if matches[1] == 'help' and not is_momod(msg) then
-			text = "Message /superhelp  in private for SuperGroup help"
+		if matches[1] == 'help' and not is_owner(msg) then
+			text = "Message /superhelp to @TgGuard in private for SuperGroup help"
 			reply_msg(msg.id, text, ok_cb, false)
-		elseif matches[1] == 'help' and is_momod(msg) then
+		elseif matches[1] == 'help' and is_owner(msg) then
 			local name_log = user_print_name(msg.from)
-			--savelog(msg.to.id, name_log.." ["..msg.from.id.."] Used /superhelp")
+			savelog(msg.to.id, name_log.." ["..msg.from.id.."] Used /superhelp")
 			return super_help()
 
 
