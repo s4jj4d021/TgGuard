@@ -3,7 +3,7 @@
 ""
   }
 local function run(msg, matches) 
- send_document(get_receiver(msg), "/root/TeleSeed/data/sticker.webp", ok_cb, false)
+ send_document(get_receiver(msg), "/root/TgGuard/data/sticker.webp", ok_cb, false)
 return datebase[math.random(#datebase)]
 end
 return {
@@ -20,9 +20,10 @@ return {
 }
 --[[
 #
+#     http://github.com/TgMemberPlus/TgGuard
 #
-#                 @Hell_Bot_channel
+#                 @MemberPlus_TM
 #               
-#                  @H_e_ll_B_O_Y
+#                  @sajjad_021
 #
 ]]
