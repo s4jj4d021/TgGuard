@@ -39,7 +39,7 @@ luac.out
 *.x86_64
 *.hex
 
-#TeleSeed Data
+#TgGuard Data
 data/*.*
 data/photos/*.*
 data/tmp/*.*
