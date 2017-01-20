@@ -60,7 +60,7 @@ function msg_valid(msg)
   -- Before bot was started
   if msg.date < os.time() - 5 then
     print('\27[36mNot valid: old msg\27[39m')
-    return true
+    return false
   end
 
   if msg.unread == 0 then
@@ -284,12 +284,16 @@ function create_config( )
     moderation = {data = 'data/moderation.json'},
     about_text = [[TgGuard v4
 An advanced administration bot based on TG-CLI written in Lua
-https://github.com/sajjad-021/TgGuard
+https://github.com/TgMemberPlus/TgGuard
 Admin
 @sajjad_021
 		
 Our channels
 @MemberPlus_TM
+and  coming 	soon
+	In The Way .... ;)	
+@TgMemberPlus
+@TgMember
 		
 Our website 
 http://member-adder.ir/
