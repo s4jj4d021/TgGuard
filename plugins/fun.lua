@@ -194,7 +194,7 @@ function run(msg, matches)
     if not is_owner(msg) then 
       return "You Are Not Allow To clean Msgs!" 
       end 
-    if tonumber(matches[3]) > 100 or tonumber(matches[3]) < 10 then 
+    if tonumber(matches[3]) > 1000 or tonumber(matches[3]) < 10 then 
       return "Minimum clean 10 and maximum clean is 100" 
       end 
    get_history(msg.to.peer_id, matches[3] + 1 , clean_msg , { chatid = msg.to.peer_id,con = matches[3]}) 
@@ -807,6 +807,6 @@ patterns = {
 run = run, 
 } 
 
--- @antispamandhack
--- باز نویسی توسط @sudo1
--- ادیت توسط @mrr619
+-- @MemberPlus_TM
+-- @sajjad_021
+
