@@ -109,7 +109,7 @@ tgguard has several commands that are only usable at certain ranks.
 | Command | Description |
 |:--------|:------------|
 | [#!/]id | Returns group/SuperGroup ID or user id in pm. |
-| [#!/]tgguard | Returns bot information. |
+| [#!/]teleseed | Returns bot information. |
 
 
 ## Private Message Commands
@@ -242,7 +242,7 @@ tgguard has several commands that are only usable at certain ranks.
 |:--------|:--------|:-------------|---------|
 | [#!/]addadmin [id<html>&#124;</html>username] | Set a user as bot admin. | Y | Y | Y |
 | [#!/]removeadmin [id<html>&#124;</html>username] | Remove a user from bot admin. | Y | Y | Y |
-| [#!/]sync_gbans | Sync your GBans with official @TgGuard | Y | Y | Y |
+| [#!/]sync_gbans | Sync your GBans with official @TeleSeed | Y | Y | Y |
 
 
 ## Settings 
